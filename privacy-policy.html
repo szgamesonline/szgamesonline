@@ -1,67 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | SZ Games</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
-    <style>
-        body {font-family: 'Open Sans', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px;}
-        h1, h2 {font-family: 'Roboto', sans-serif; color: #1a73e8;}
-        h1 {border-bottom: 2px solid #1a73e8; padding-bottom: 10px;}
-        p {margin-bottom: 15px;}
-        .nav-links {margin-bottom: 30px; border-bottom: 1px solid #ddd; padding-bottom: 10px;}
-        .nav-links a {text-decoration: none; color: #1a73e8; margin-right: 15px; font-weight: 600; font-size: 0.9rem;}
-        .footer-links {margin-top: 50px; border-top: 1px solid #ddd; padding-top: 20px; font-size: 0.85rem; text-align: center;}
-        .footer-links a {text-decoration: none; color: #5f6368; margin: 0 10px;}
-        .back-link {display: inline-block; margin-top: 30px; text-decoration: none; color: #1a73e8; font-weight: bold;}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – SZ Games Online</title>
+<meta name="description" content="SZ Games Online Privacy Policy. Learn how we collect, use, and protect your data when you visit our free browser gaming platform.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="SZ Games Online">
+<link rel="canonical" href="https://szgamesonline.github.io/privacy-policy.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#e63946;--red-dark:#b5202c;--red-light:#fff1f2;--bg:#ffffff;--bg2:#f8f9fa;--border:#e9ecef;--text:#111827;--text-muted:#6b7280;--text-light:#9ca3af;--shadow-sm:0 1px 4px rgba(0,0,0,0.06);--radius:16px;--radius-sm:10px;--radius-xs:6px;--font-head:'Syne',sans-serif;--font-body:'Plus Jakarta Sans',sans-serif;--header-h:68px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.7;font-size:15px;-webkit-font-smoothing:antialiased}
+.topbar{background:linear-gradient(90deg,var(--red-dark),var(--red));color:#fff;text-align:center;font-size:.78rem;font-weight:600;padding:8px 20px}
+.topbar a{color:#ffe;text-decoration:underline}
+header{position:sticky;top:0;z-index:300;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1.5px solid var(--border);box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.header-inner{max-width:1320px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:var(--header-h);gap:20px}
+.logo{font-family:var(--font-head);font-weight:900;font-size:1.5rem;text-decoration:none;color:var(--text);letter-spacing:-.03em;white-space:nowrap;flex-shrink:0;display:flex;align-items:center;gap:8px}
+.logo-icon{width:34px;height:34px;background:var(--red);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+.logo span{color:var(--red)}
+nav.main-nav{display:flex;align-items:center;gap:2px;flex:1;justify-content:center}
+nav.main-nav a{color:var(--text-muted);text-decoration:none;font-size:.875rem;font-weight:700;padding:7px 13px;border-radius:var(--radius-xs);transition:all .18s;white-space:nowrap}
+nav.main-nav a:hover,nav.main-nav a.active{color:var(--red);background:var(--red-light)}
+.nav-toggle{display:none;background:none;border:1.5px solid var(--border);color:var(--text);padding:7px 12px;border-radius:var(--radius-xs);cursor:pointer;font-size:1.2rem;line-height:1}
+.mobile-nav{display:none;position:fixed;inset:var(--header-h) 0 0 0;background:white;z-index:299;padding:16px 20px 30px;flex-direction:column;gap:3px;border-top:1px solid var(--border);overflow-y:auto}
+.mobile-nav.open{display:flex}
+.mobile-nav a{color:var(--text);text-decoration:none;font-weight:700;font-size:.93rem;padding:10px 14px;border-radius:var(--radius-sm);transition:background .15s}
+.mobile-nav a:hover{background:var(--bg2);color:var(--red)}
+.mobile-nav .divider{height:1px;background:var(--border);margin:8px 0}
+.breadcrumb{background:var(--bg2);border-bottom:1px solid var(--border);padding:10px 0}
+.breadcrumb-inner{max-width:1320px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:8px;font-size:.8rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--red);text-decoration:none;font-weight:600}
+.breadcrumb span{color:var(--text-light)}
+.page-hero{background:linear-gradient(135deg,#fff1f2 0%,#fff8f0 50%,#f0f4ff 100%);border-bottom:1.5px solid var(--border);padding:48px 24px 40px;text-align:center}
+.page-hero-inner{max-width:680px;margin:0 auto;animation:fadeUp .5s ease both}
+.page-badge{display:inline-flex;align-items:center;gap:7px;background:white;border:2px solid var(--red);color:var(--red);font-size:.7rem;font-weight:800;padding:5px 15px;border-radius:40px;margin-bottom:16px;letter-spacing:.07em;text-transform:uppercase}
+.page-hero h1{font-family:var(--font-head);font-size:clamp(1.8rem,4.5vw,2.8rem);font-weight:900;line-height:1.15;letter-spacing:-.03em;margin-bottom:12px;color:var(--text)}
+.page-hero h1 em{color:var(--red);font-style:normal}
+.page-hero p{font-size:.9rem;color:var(--text-muted);max-width:520px;margin:0 auto}
+.update-note{background:var(--bg2);border:1.5px solid var(--border);border-radius:var(--radius-xs);padding:12px 18px;margin:24px 0 0;font-size:.82rem;color:var(--text-muted);text-align:center}
+.wrapper{max-width:860px;margin:0 auto;padding:0 24px}
+.legal-layout{display:grid;grid-template-columns:1fr 240px;gap:40px;padding:48px 0 60px;align-items:start}
+.content-body h2{font-family:var(--font-head);font-size:1.3rem;font-weight:900;color:var(--text);margin:40px 0 13px;padding-bottom:9px;border-bottom:2px solid var(--border);letter-spacing:-.02em}
+.content-body h2:first-child{margin-top:0}
+.content-body h3{font-family:var(--font-head);font-size:1rem;font-weight:800;color:var(--red);margin:20px 0 7px}
+.content-body p{color:var(--text-muted);margin-bottom:13px;line-height:1.85;font-size:.95rem}
+.content-body p strong{color:var(--text)}
+.content-body a{color:var(--red);font-weight:700;text-decoration:none}
+.content-body a:hover{text-decoration:underline}
+.content-body ul{margin:10px 0 18px 0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.content-body ul li{display:flex;align-items:flex-start;gap:8px;font-size:.9rem;color:var(--text-muted);padding:8px 12px;background:var(--bg2);border-radius:var(--radius-xs)}
+.content-body ul li::before{content:'•';color:var(--red);font-weight:900;flex-shrink:0}
+/* TOC sidebar */
+.toc{background:white;border:1.5px solid var(--border);border-radius:var(--radius);padding:20px;position:sticky;top:calc(var(--header-h) + 20px);box-shadow:var(--shadow-sm)}
+.toc h4{font-family:var(--font-head);font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em;color:var(--text);margin-bottom:14px}
+.toc a{display:block;color:var(--text-muted);text-decoration:none;font-size:.8rem;font-weight:600;padding:6px 0;border-bottom:1px solid var(--border);transition:color .17s}
+.toc a:last-child{border-bottom:none}
+.toc a:hover{color:var(--red)}
+footer{background:#111827;color:#9ca3af;margin-top:0}
+.footer-top{max-width:1320px;margin:0 auto;padding:56px 24px 36px;display:grid;grid-template-columns:2.8fr 1fr 1fr 1fr;gap:36px}
+.footer-brand .logo{color:white;font-size:1.2rem}.footer-brand .logo span{color:var(--red)}
+.footer-brand p{font-size:.82rem;color:#6b7280;margin-top:12px;max-width:250px;line-height:1.65}
+.footer-contact{margin-top:18px;font-size:.8rem;color:#6b7280}
+.footer-contact a{color:var(--red);text-decoration:none;font-weight:700}
+.footer-col h4{font-family:var(--font-head);font-size:.75rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em;color:white;margin-bottom:16px}
+.footer-col a{display:block;color:#6b7280;text-decoration:none;font-size:.82rem;margin-bottom:9px;transition:color .18s}
+.footer-col a:hover{color:var(--red)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.06);max-width:1320px;margin:0 auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:.75rem;color:#4b5563}
+.footer-bottom a{color:#6b7280;text-decoration:none}
+.footer-bottom a:hover{color:var(--red)}
+@media(max-width:1024px){.footer-top{grid-template-columns:1fr 1fr}.legal-layout{grid-template-columns:1fr}}
+@media(max-width:768px){nav.main-nav{display:none}.nav-toggle{display:block}.toc{display:none}}
+@media(max-width:520px){.footer-top{grid-template-columns:1fr}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+</style>
 </head>
 <body>
-    <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
+<div class="topbar">🎮 500+ Free Premium Games — No Download, No Login Required! <a href="/">Play Now →</a></div>
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo"><div class="logo-icon">🎮</div>SZ <span>Games</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">☰</button>
+    <nav class="main-nav">
+      <a href="/">🏠 Home</a><a href="/games.html">🎮 All Games</a><a href="/blog.html">📝 Blog</a><a href="/about.html">About Us</a><a href="/contact.html">Contact</a><a href="/privacy-policy.html" class="active">Privacy</a>
+    </nav>
+  </div>
+</header>
+<div class="mobile-nav" id="mobileNav">
+  <a href="/">🏠 Home</a><a href="/games.html">🎮 All Games</a><a href="/blog.html">📝 Blog</a>
+  <div class="divider"></div>
+  <a href="/about.html">About Us</a><a href="/contact.html">Contact</a><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms.html">Terms & Conditions</a><a href="/disclaimer.html">Disclaimer</a><a href="/dmca.html">DMCA</a>
+</div>
+<div class="breadcrumb"><div class="breadcrumb-inner"><a href="/">Home</a><span>›</span><span>Privacy Policy</span></div></div>
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-badge">🔒 Legal</div>
+    <h1>Privacy <em>Policy</em></h1>
+    <p>How SZ Games Online collects, uses, and protects your information.</p>
+    <div class="update-note">📅 Last Updated: April 21, 2026 &nbsp;|&nbsp; Effective Date: April 21, 2026</div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="legal-layout">
+    <div class="content-body">
+
+      <h2 id="intro">1. Introduction</h2>
+      <p>Welcome to <strong>SZ Games Online</strong> ("we", "our", or "us"). This Privacy Policy explains how we collect, use, disclose, and protect information when you visit our website at <a href="/">szgamesonline.github.io</a> (the "Site"). By using our Site, you agree to the terms of this Privacy Policy.</p>
+      <p>We are committed to protecting your privacy. SZ Games Online is a free browser gaming platform. We do not require user accounts, registrations, or personal information to play any game on our Site.</p>
+
+      <h2 id="collect">2. Information We Collect</h2>
+      <h3>2.1 Information You Provide Voluntarily</h3>
+      <p>We only collect personal information that you choose to provide to us directly, such as when you send us an email through our <a href="/contact.html">Contact page</a>. This may include your name and email address. We do not store this information on our servers.</p>
+      <h3>2.2 Automatically Collected Information</h3>
+      <p>Like most websites, our Site may collect certain technical information automatically when you visit, including:</p>
+      <ul>
+        <li>Your IP address and general geographic location (country/region)</li>
+        <li>Browser type, version, and operating system</li>
+        <li>Pages you visit and time spent on each page</li>
+        <li>Referring website or source that brought you to our Site</li>
+        <li>Date and time of your visit</li>
+      </ul>
+      <p>This information is collected through standard web server logs and analytics tools and is used only for improving our Site's performance and user experience.</p>
+      <h3>2.3 Cookies and Tracking Technologies</h3>
+      <p>Our Site may use cookies and similar tracking technologies. Cookies are small text files stored on your device. We use them to remember your preferences and improve your experience. Third-party services on our Site (such as advertising networks) may also place their own cookies. You can control or delete cookies through your browser settings at any time.</p>
+
+      <h2 id="use">3. How We Use Your Information</h2>
+      <p>We use the information we collect for the following purposes:</p>
+      <ul>
+        <li>To operate and maintain the Site and its content</li>
+        <li>To respond to your messages and inquiries sent via email or contact form</li>
+        <li>To analyze Site traffic and improve user experience</li>
+        <li>To serve advertisements (through third-party ad networks such as Google AdSense or similar)</li>
+        <li>To detect and prevent fraudulent or harmful activity</li>
+        <li>To comply with applicable laws and legal obligations</li>
+      </ul>
+
+      <h2 id="ads">4. Advertising</h2>
+      <p>SZ Games Online may display advertisements provided by third-party advertising partners, including Google AdSense, Adsterra, or similar networks. These partners may use cookies, web beacons, and other tracking technologies to serve advertisements based on your browsing history and interests.</p>
+      <p>We do not control the data collection practices of third-party advertisers. For more information about Google's data practices, visit <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. You can opt out of personalized advertising at <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ad Settings</a>.</p>
+
+      <h2 id="third-party">5. Third-Party Links and Games</h2>
+      <p>Our Site includes browser games that may be hosted or powered by third-party sources. These third parties have their own privacy policies, and we have no control over their data practices. We encourage you to review the privacy policies of any third-party services you interact with through our Site.</p>
+
+      <h2 id="children">6. Children's Privacy</h2>
+      <p>SZ Games Online does not knowingly collect personal information from children under the age of 13. Our Site is designed to be family-friendly, but we recommend that parents and guardians supervise their children's online activities. If you believe a child under 13 has provided us with personal information, please <a href="/contact.html">contact us</a> at <a href="mailto:muhammadgullsher0786@gmail.com">muhammadgullsher0786@gmail.com</a> immediately so we can remove it.</p>
+
+      <h2 id="security">7. Data Security</h2>
+      <p>We take reasonable precautions to protect your information. However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security of any information transmitted to or from our Site.</p>
+
+      <h2 id="rights">8. Your Rights</h2>
+      <p>Depending on your location, you may have certain rights regarding your personal information, including the right to access, correct, or delete your data. To exercise any of these rights, please contact us at <a href="mailto:muhammadgullsher0786@gmail.com">muhammadgullsher0786@gmail.com</a>.</p>
+
+      <h2 id="changes">9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last Updated" date at the top of this page. We encourage you to review this page periodically. Your continued use of the Site after any changes constitutes acceptance of the updated policy.</p>
+
+      <h2 id="contact">10. Contact Us</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:muhammadgullsher0786@gmail.com">muhammadgullsher0786@gmail.com</a></li>
+        <li><strong>Contact Page:</strong> <a href="/contact.html">szgamesonline.github.io/contact.html</a></li>
+        <li><strong>Website:</strong> <a href="/">szgamesonline.github.io</a></li>
+      </ul>
+      <p>Also see our <a href="/terms.html">Terms & Conditions</a>, <a href="/disclaimer.html">Disclaimer</a>, and <a href="/dmca.html">DMCA Policy</a> for more legal information.</p>
+
     </div>
-
-    <h1>Privacy Policy</h1>
-    <p>Welcome to SZ Games. We value your privacy and aim to keep your information safe. By using our site, you also agree to our <a href="/terms.html">Terms and Conditions</a>.</p>
-
-    <h2>📊 Information We Collect</h2>
-    <p>SZ Games does not require personal accounts. We do not ask for personal details. You can use the platform without registration. This keeps your experience simple and private.</p>
-    <p>Some basic usage data may be collected. This helps improve game performance and stability. It includes device type and browser type. No personal identity information is stored.</p>
-
-    <h2>🎮 How We Use Information</h2>
-    <p>We use basic data to improve performance. It helps games load faster and run smoothly. It also helps fix technical issues. We focus on better user experience.</p>
-    <p>We do not sell user information. We do not share personal data with others. Your activity stays private and protected. We keep everything minimal and safe.</p>
-
-    <h2>🍪 Cookies</h2>
-    <p>SZ Games may use cookies in the browser. Cookies help remember basic settings. They also improve loading speed and gameplay. You can disable cookies in browser settings. For more details, see our <a href="/disclaimer.html">Disclaimer</a>.</p>
-
-    <h2>🔒 Data Security</h2>
-    <p>We use simple safety practices. We aim to protect user data at all times. No sensitive personal data is collected. This reduces security risks for users.</p>
-
-    <h2>👶 Children’s Privacy</h2>
-    <p>SZ Games is suitable for general audiences. We do not knowingly collect children’s data. Users should follow local online rules. Parents can guide younger users if needed.</p>
-
-    <h2>🌐 Third-Party Content</h2>
-    <p>Some games may include external content. These games may follow their own policies. We are not responsible for third-party content. Users should use games with awareness.</p>
-
-    <h2>🔄 Changes to This Policy</h2>
-    <p>We may update this policy when needed. Changes will be reflected on this page. Users should check it from time to time. We aim to keep information clear and updated.</p>
-
-    <h2>📞 Contact</h2>
-    <p>If you have questions, contact us anytime at <strong>muhammadgullsher0786@gmail.com</strong> or visit our <a href="/contact.html">Contact Page</a>. We will respond as soon as possible.</p>
-
-    <a href="/" class="back-link">← Back to Home</a>
-
-    <div class="footer-links">
-        <a href="/privacy-policy.html">Privacy Policy</a> | 
-        <a href="/terms.html">Terms & Conditions</a> | 
-        <a href="/disclaimer.html">Disclaimer</a> | 
-        <a href="/dmca.html">DMCA Policy</a> | 
-        <a href="/about.html">About Us</a> | 
-        <a href="/contact.html">Contact Us</a>
+    <aside>
+      <div class="toc">
+        <h4>📋 Contents</h4>
+        <a href="#intro">1. Introduction</a>
+        <a href="#collect">2. Info We Collect</a>
+        <a href="#use">3. How We Use It</a>
+        <a href="#ads">4. Advertising</a>
+        <a href="#third-party">5. Third-Party Links</a>
+        <a href="#children">6. Children's Privacy</a>
+        <a href="#security">7. Data Security</a>
+        <a href="#rights">8. Your Rights</a>
+        <a href="#changes">9. Changes</a>
+        <a href="#contact">10. Contact Us</a>
+      </div>
+    </aside>
+  </div>
+</div>
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="/" class="logo"><div class="logo-icon" style="width:28px;height:28px;font-size:.9rem">🎮</div>SZ <span>Games</span></a>
+      <p>Your ultimate hub for 500+ free premium unblocked browser games. No downloads, no login — just play.</p>
+      <div class="footer-contact">📧 <a href="mailto:muhammadgullsher0786@gmail.com">muhammadgullsher0786@gmail.com</a></div>
     </div>
+    <div class="footer-col"><h4>Categories</h4><a href="/category/action.html">🎯 Action</a><a href="/category/racing.html">🏎️ Racing</a><a href="/category/puzzle.html">🧩 Puzzle</a><a href="/category/sports.html">🏆 Sports</a><a href="/category/multiplayer.html">👥 Multiplayer</a><a href="/category/shooter.html">🔫 Shooter</a></div>
+    <div class="footer-col"><h4>Navigation</h4><a href="/">Home</a><a href="/games.html">All Games</a><a href="/blog.html">Blog</a><a href="/about.html">About Us</a><a href="/contact.html">Contact Us</a></div>
+    <div class="footer-col"><h4>Legal</h4><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms.html">Terms & Conditions</a><a href="/disclaimer.html">Disclaimer</a><a href="/dmca.html">DMCA</a></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 SZ Games Online. All rights reserved. | <a href="mailto:muhammadgullsher0786@gmail.com">muhammadgullsher0786@gmail.com</a></span>
+    <span><a href="/privacy-policy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="/disclaimer.html">Disclaimer</a> · <a href="/dmca.html">DMCA</a> · <a href="/contact.html">Contact</a></span>
+  </div>
+</footer>
+<script>
+const toggle=document.getElementById('navToggle'),mobileNav=document.getElementById('mobileNav');
+toggle.addEventListener('click',e=>{e.stopPropagation();mobileNav.classList.toggle('open');toggle.textContent=mobileNav.classList.contains('open')?'✕':'☰';});
+document.addEventListener('click',e=>{if(!toggle.contains(e.target)&&!mobileNav.contains(e.target)){mobileNav.classList.remove('open');toggle.textContent='☰';}});
+</script>
 </body>
 </html>
